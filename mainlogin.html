@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NOVATION</title>
+  <style>
+    body {
+      background-color: #8e44ad;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer {
+      position: fixed;
+      text-align: right;
+      bottom: 0px;
+      width: 100%;
+    }
+    .under {
+      position: fixed;
+      text-align: center;
+      bottom: 30px;
+      width: 100%;
+    }
+    input[type=text], input[type=password] {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .psw {
+      color: white;
+      margin-top: 35px;
+    }
+    form {
+      text-align: center;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <img class="compass" src="compass.png" alt="compasslogo" width="80px;" height="80px;">
+  <img src="VA.png" alt="VAlogo" width="50px;" height="56px;">
+
+  <form action="action_page.php" method="post">
+    <div class="container">
+      <input type="text" placeholder="이메일" name="uname" required>
+      <input type="password" placeholder="비밀번호" name="psw" required>
+      <button type="submit">로그인</button>
+      <label style="display: block;">
+      <input type="checkbox" checked="checked" name="remember"> 자동로그인
+      </label>
+    </div>
+
+    <div class="psw"><a href="pwfinder.html" style="color: white;">비밀번호를 잊으셨나요?</a></div>
+
+    <div class="under"><b style="color: white;">NOVATION</b></div>
+
+  </form>
+  <!-- Using it for web? Copy this link in your website -->
+  <div class="footer">Icons made by <a href="http://www.dariusdan.com/" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</body>
+</html>
